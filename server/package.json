@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "url-shortner api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/dareakl/url-shortner.git"
+  },
+  "keywords": [
+    "url-shortner"
+  ],
+  "author": "Sathish",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6",
+    "shortid": "^2.2.8",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
